@@ -1,0 +1,16 @@
+---
+title: "Claims/Fraud POC"
+date: "2025-08-03"
+description: "Prototype that flags anomalies and explains risk in plain language."
+category: "Hybrid"
+tags: ["SQL", "Tableau", "OpenAI"]
+---
+
+## Problem
+Triage is slow; adjusters sift long notes manually.
+
+## Approach
+Ingest CSV → clean with Pandas → rule + LLM scoring → Tableau view with AI summaries.
+
+## Outcomes
+- ~30% faster triage in tests (pilot)
